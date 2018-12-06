@@ -21,10 +21,12 @@ public class AppVersion extends CordovaPlugin {
         callbackContext.success((String)packageManager.getApplicationLabel(app));
         return true;
       }
-      if (action.equals("getPackageName")) {
-        callbackContext.success(this.cordova.getActivity().getPackageName());
+       if (action.equals("getPackageName")) {
+        //callbackContext.success(this.cordova.getActivity().getPackageName());
+        callbackContext.success(android.os.Build.CPU_ABI+","+toJson(android.os.Build.SUPPORTED_ABIS));
         return true;
       }
+
       if (action.equals("getVersionNumber")) {
         PackageManager packageManager = this.cordova.getActivity().getPackageManager();
         callbackContext.success(packageManager.getPackageInfo(this.cordova.getActivity().getPackageName(), 0).versionName);
