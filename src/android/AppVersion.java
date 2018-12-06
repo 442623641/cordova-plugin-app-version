@@ -43,5 +43,13 @@ public class AppVersion extends CordovaPlugin {
       return true;
     }
   }
+  
+  private String toJson(String [] array){
+    String re="";
+    for (int i=0;i<array.length;i++){
+      re=re+","+array[i];
+    }
+    return re;
+  }
 
 }
