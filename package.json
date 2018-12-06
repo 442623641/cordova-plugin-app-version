@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whiteoctober/cordova-plugin-app-version.git"
+    "url": "git+https://github.com/442623641/cordova-plugin-app-version.git"
   },
   "keywords": [
     "cordova",
@@ -20,7 +20,7 @@
   "author": "whiteoctober",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/whiteoctober/cordova-plugin-app-version/issues"
+    "url": "https://github.com/442623641/cordova-plugin-app-version/issues"
   },
-  "homepage": "https://github.com/whiteoctober/cordova-plugin-app-version#readme"
+  "homepage": "https://github.com/442623641/cordova-plugin-app-version#readme"
 }
