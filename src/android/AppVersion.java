@@ -9,6 +9,7 @@ import org.json.JSONObject;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.support.annotation.RequiresApi;
 
 public class AppVersion extends CordovaPlugin {
