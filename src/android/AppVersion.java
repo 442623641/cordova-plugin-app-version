@@ -9,8 +9,10 @@ import org.json.JSONObject;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.PackageManager;
+import android.support.annotation.RequiresApi;
 
 public class AppVersion extends CordovaPlugin {
+  @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
   @Override
   public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 
